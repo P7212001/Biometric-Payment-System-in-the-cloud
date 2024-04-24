@@ -1,0 +1,17 @@
+D:\amish\Projects\Finger Attendance\Finger Attendance\bin\Debug\Finger_ATM.exe
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger_ATM.AddClass.resources
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger_ATM.AddStudent.resources
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger_ATM.AdminLogin.resources
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger_ATM.AdminMenu.resources
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger_ATM.Form1.resources
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger_ATM.Properties.Resources.resources
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger_ATM.Attendance.resources
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger_ATM.ViewAtt.resources
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger Attendance.csproj.GenerateResource.Cache
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger_ATM.exe
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger_ATM.pdb
+D:\amish\Projects\Finger Attendance\Finger Attendance\bin\Debug\Finger_ATM.pdb
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger_ATM.deleteStud.resources
+D:\amish\Projects\Finger Attendance\Finger Attendance\obj\x86\Debug\Finger Attendance.csprojResolveAssemblyReference.cache
+D:\Projects\Biometric Transaction System\Project\obj\x86\Debug\Finger_ATM.exe
+D:\Projects\Biometric Transaction System\Project\obj\x86\Debug\Finger_ATM.pdb

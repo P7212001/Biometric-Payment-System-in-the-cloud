@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D974663F-41C7-4AFF-9D23-13C3228E467F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Finger_ATM</RootNamespace>
+    <AssemblyName>Finger_ATM</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SecuGen.FDxSDKPro.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4c4e1bcde5201535, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Secugen\DLL\x32\SecuGen.FDxSDKPro.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCust.Designer.cs">
+      <DependentUpon>AddCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddMerchant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMerchant.Designer.cs">
+      <DependentUpon>AddMerchant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminTransaction.Designer.cs">
+      <DependentUpon>AdminTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerLogin.Designer.cs">
+      <DependentUpon>CustomerLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customermain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customermain.Designer.cs">
+      <DependentUpon>Customermain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerProfile.Designer.cs">
+      <DependentUpon>CustomerProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerTransaction.Designer.cs">
+      <DependentUpon>CustomerTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageMerchant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageMerchant.Designer.cs">
+      <DependentUpon>ManageMerchant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageProfile.Designer.cs">
+      <DependentUpon>ManageProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MerchantLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MerchantLogin.Designer.cs">
+      <DependentUpon>MerchantLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Merchantmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Merchantmain.Designer.cs">
+      <DependentUpon>Merchantmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MerchantProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MerchantProfile.Designer.cs">
+      <DependentUpon>MerchantProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MerchantTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MerchantTransaction.Designer.cs">
+      <DependentUpon>MerchantTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewTransactionMerchant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTransactionMerchant.Designer.cs">
+      <DependentUpon>NewTransactionMerchant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddCust.resx">
+      <DependentUpon>AddCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMerchant.resx">
+      <DependentUpon>AddMerchant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminTransaction.resx">
+      <DependentUpon>AdminTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerLogin.resx">
+      <DependentUpon>CustomerLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customermain.resx">
+      <DependentUpon>Customermain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerProfile.resx">
+      <DependentUpon>CustomerProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerTransaction.resx">
+      <DependentUpon>CustomerTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageMerchant.resx">
+      <DependentUpon>ManageMerchant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageProfile.resx">
+      <DependentUpon>ManageProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MerchantLogin.resx">
+      <DependentUpon>MerchantLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Merchantmain.resx">
+      <DependentUpon>Merchantmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MerchantProfile.resx">
+      <DependentUpon>MerchantProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MerchantTransaction.resx">
+      <DependentUpon>MerchantTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTransactionMerchant.resx">
+      <DependentUpon>NewTransactionMerchant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avoid-ATM-Credit-Card-Fees.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Finger\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fingerprint-large-Small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

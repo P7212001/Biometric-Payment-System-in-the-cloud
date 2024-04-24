@@ -1,0 +1,11 @@
+D:\amish\Projects\Finger Print\Finger_ATM\Finger_ATM\bin\Debug\Finger_ATM.exe
+D:\amish\Projects\Finger Print\Finger_ATM\Finger_ATM\bin\Debug\Finger_ATM.pdb
+D:\amish\Projects\Finger Print\Finger_ATM\Finger_ATM\bin\Debug\SecuGen.FDxSDKPro.Windows.dll
+D:\amish\Projects\Finger Print\Finger_ATM\Finger_ATM\obj\x86\Debug\Finger_ATM.Form1.resources
+D:\amish\Projects\Finger Print\Finger_ATM\Finger_ATM\obj\x86\Debug\Finger_ATM.Properties.Resources.resources
+D:\amish\Projects\Finger Print\Finger_ATM\Finger_ATM\obj\x86\Debug\Finger_ATM.csproj.GenerateResource.Cache
+D:\amish\Projects\Finger Print\Finger_ATM\Finger_ATM\obj\x86\Debug\Finger_ATM.exe
+D:\amish\Projects\Finger Print\Finger_ATM\Finger_ATM\obj\x86\Debug\Finger_ATM.pdb
+D:\amish\Projects\Finger Print\Finger_ATM\Finger_ATM\obj\x86\Debug\Finger_ATM.csprojResolveAssemblyReference.cache
+D:\amish\Projects\Finger\Finger_ATM\obj\x86\Debug\Finger_ATM.exe
+D:\amish\Projects\Finger\Finger_ATM\obj\x86\Debug\Finger_ATM.pdb
